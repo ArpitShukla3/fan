@@ -21,8 +21,11 @@ describe("POST /orders", () => {
       .send({
         components: ["motherboard", "cpu", "ram"],
       });
+      
     expect(response.status).toBe(500);
+
     expect(response.body.success).toBe(false);
+
     expect(response.body.message).toBe("Error occurred");
   });
 });
