@@ -128,7 +128,3 @@ The following development dependencies are also included:
 - `jest`: Testing framework for JavaScript.
 - `nodemon`: Utility that automatically restarts the server when code changes are detected.
 - `supertest`: HTTP assertion library for testing Node.js HTTP servers.
-
-## License
-
-This project is licensed under the [ISC License](LICENSE).
